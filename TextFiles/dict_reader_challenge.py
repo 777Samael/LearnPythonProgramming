@@ -27,5 +27,5 @@ while True:
     if country_key in countries:
         country_data = countries[country_key]
         print(f"The capital of {chosen_country} is {country_data['capital']}")
-    elif chosen_country == 'quit':
+    elif chosen_country.casefold() == 'quit':
         break
