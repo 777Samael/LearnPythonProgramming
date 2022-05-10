@@ -202,6 +202,77 @@ Aerosmith	Just Push Play	2001	Drop Dead Gorgeous
 Aerosmith	Just Push Play	2001	Light Inside
 Aerosmith	Just Push Play	2001	Avant Garden
 Aerosmith	Just Push Play	2001	Face
+ZZ Top	Antenna	1994	Pincushion
+ZZ Top	Antenna	1994	Breakaway
+ZZ Top	Antenna	1994	World Of Swirl
+ZZ Top	Antenna	1994	Fuzzbox Voodoo
+ZZ Top	Antenna	1994	Girl In A T-Shirt
+ZZ Top	Antenna	1994	Antenna Head
+ZZ Top	Antenna	1994	PCH
+ZZ Top	Antenna	1994	Cherry Red
+ZZ Top	Antenna	1994	Cover Your Rig
+ZZ Top	Antenna	1994	Lizard Life
+ZZ Top	Antenna	1994	Deal Goin' Down
+ZZ Top	Antenna	1994	Everything
+ZZ Top	Rio Grande Mud	1972	Francine
+ZZ Top	Rio Grande Mud	1972	Just Got Paid
+ZZ Top	Rio Grande Mud	1972	Mushmouth Shoutin
+ZZ Top	Rio Grande Mud	1972	Ko Ko Blue
+ZZ Top	Rio Grande Mud	1972	Chevrolet
+ZZ Top	Rio Grande Mud	1972	Apologies To Pearly
+ZZ Top	Rio Grande Mud	1972	Bar-B-Q
+ZZ Top	Rio Grande Mud	1972	Sure Got Cold After The Rain Fell
+ZZ Top	Rio Grande Mud	1972	Whiskey'n Mama
+ZZ Top	Rio Grande Mud	1972	Down Brownie
+ZZ Top	Tres Hombres	1973	Waitin' For The Bus
+ZZ Top	Tres Hombres	1973	Jesus Just Left Chicago
+ZZ Top	Tres Hombres	1973	Beer Drinkers & Hell Raisers
+ZZ Top	Tres Hombres	1973	Master Of Sparks
+ZZ Top	Tres Hombres	1973	Hot, Blue And Righteous
+ZZ Top	Tres Hombres	1973	Move Me On Down The Line
+ZZ Top	Tres Hombres	1973	Precious And Grace
+ZZ Top	Tres Hombres	1973	La Grange
+ZZ Top	Tres Hombres	1973	Sheik
+ZZ Top	Tres Hombres	1973	Have You Heard
+ZZ Top	Tres Hombres	1973	Waitin' For The Bus (Live) (Bonus)
+ZZ Top	Tres Hombres	1973	Jesus Just Left Chicago (Live) (Bonus)
+ZZ Top	Tres Hombres	1973	La Grange (Live) (Bonus)
+ZZ Top	Degüello	1979	I Thank You
+ZZ Top	Degüello	1979	She Loves My Automobile
+ZZ Top	Degüello	1979	I'm Bad I'm Nationwide
+ZZ Top	Degüello	1979	A Fool For Your Stockings
+ZZ Top	Degüello	1979	Manic Mechanic
+ZZ Top	Degüello	1979	Dust My Broom
+ZZ Top	Degüello	1979	Lowdown In The Street
+ZZ Top	Degüello	1979	Hi Fi Mama
+ZZ Top	Degüello	1979	Cheap Sunglasses
+ZZ Top	Degüello	1979	Esther Be The One
+ZZ Top	Recycler	1990	Concrete And Steel
+ZZ Top	Recycler	1990	Lovething
+ZZ Top	Recycler	1990	Penthouse Eyes
+ZZ Top	Recycler	1990	Tell It
+ZZ Top	Recycler	1990	My Head's In Mississippi
+ZZ Top	Recycler	1990	Decision Or Collision
+ZZ Top	Recycler	1990	Give It Up
+ZZ Top	Recycler	1990	2000 Blues
+ZZ Top	Recycler	1990	Burger Man
+ZZ Top	Recycler	1990	Doubleback
+ZZ Top	Mescalero	2003	Mescalero
+ZZ Top	Mescalero	2003	Two Ways To Play
+ZZ Top	Mescalero	2003	Alley-gator
+ZZ Top	Mescalero	2003	Buck Nekkid
+ZZ Top	Mescalero	2003	Goin' So Good
+ZZ Top	Mescalero	2003	Me So Stupid
+ZZ Top	Mescalero	2003	Piece
+ZZ Top	Mescalero	2003	Punk Ass Boyfriend
+ZZ Top	Mescalero	2003	Stackin' Paper
+ZZ Top	Mescalero	2003	What Would You Do
+ZZ Top	Mescalero	2003	What It Is Kid
+ZZ Top	Mescalero	2003	Que Lastima
+ZZ Top	Mescalero	2003	Tramp
+ZZ Top	Mescalero	2003	Crunchy
+ZZ Top	Mescalero	2003	Dusted
+ZZ Top	Mescalero	2003	Liquor
 Alice Cooper	Welcome To My Nightmare	1975	Welcome To My Nightmare
 Alice Cooper	Welcome To My Nightmare	1975	Devil's Food
 Alice Cooper	Welcome To My Nightmare	1975	The Black Widow
@@ -611,74 +682,3 @@ Yngwie Malmsteen	Rising Force	1984	Icarus Dream Suite Opus 4
 Yngwie Malmsteen	Rising Force	1984	As Above So Below
 Yngwie Malmsteen	Rising Force	1984	Little Savage
 Yngwie Malmsteen	Rising Force	1984	Farewell
-ZZ Top	Rio Grande Mud	1972	Francine
-ZZ Top	Rio Grande Mud	1972	Just Got Paid
-ZZ Top	Rio Grande Mud	1972	Mushmouth Shoutin
-ZZ Top	Rio Grande Mud	1972	Ko Ko Blue
-ZZ Top	Rio Grande Mud	1972	Chevrolet
-ZZ Top	Rio Grande Mud	1972	Apologies To Pearly
-ZZ Top	Rio Grande Mud	1972	Bar-B-Q
-ZZ Top	Rio Grande Mud	1972	Sure Got Cold After The Rain Fell
-ZZ Top	Rio Grande Mud	1972	Whiskey'n Mama
-ZZ Top	Rio Grande Mud	1972	Down Brownie
-ZZ Top	Tres Hombres	1973	Waitin' For The Bus
-ZZ Top	Tres Hombres	1973	Jesus Just Left Chicago
-ZZ Top	Tres Hombres	1973	Beer Drinkers & Hell Raisers
-ZZ Top	Tres Hombres	1973	Master Of Sparks
-ZZ Top	Tres Hombres	1973	Hot, Blue And Righteous
-ZZ Top	Tres Hombres	1973	Move Me On Down The Line
-ZZ Top	Tres Hombres	1973	Precious And Grace
-ZZ Top	Tres Hombres	1973	La Grange
-ZZ Top	Tres Hombres	1973	Sheik
-ZZ Top	Tres Hombres	1973	Have You Heard
-ZZ Top	Tres Hombres	1973	Waitin' For The Bus (Live) (Bonus)
-ZZ Top	Tres Hombres	1973	Jesus Just Left Chicago (Live) (Bonus)
-ZZ Top	Tres Hombres	1973	La Grange (Live) (Bonus)
-ZZ Top	Degüello	1979	I Thank You
-ZZ Top	Degüello	1979	She Loves My Automobile
-ZZ Top	Degüello	1979	I'm Bad I'm Nationwide
-ZZ Top	Degüello	1979	A Fool For Your Stockings
-ZZ Top	Degüello	1979	Manic Mechanic
-ZZ Top	Degüello	1979	Dust My Broom
-ZZ Top	Degüello	1979	Lowdown In The Street
-ZZ Top	Degüello	1979	Hi Fi Mama
-ZZ Top	Degüello	1979	Cheap Sunglasses
-ZZ Top	Degüello	1979	Esther Be The One
-ZZ Top	Recycler	1990	Concrete And Steel
-ZZ Top	Recycler	1990	Lovething
-ZZ Top	Recycler	1990	Penthouse Eyes
-ZZ Top	Recycler	1990	Tell It
-ZZ Top	Recycler	1990	My Head's In Mississippi
-ZZ Top	Recycler	1990	Decision Or Collision
-ZZ Top	Recycler	1990	Give It Up
-ZZ Top	Recycler	1990	2000 Blues
-ZZ Top	Recycler	1990	Burger Man
-ZZ Top	Recycler	1990	Doubleback
-ZZ Top	Antenna	1994	Pincushion
-ZZ Top	Antenna	1994	Breakaway
-ZZ Top	Antenna	1994	World Of Swirl
-ZZ Top	Antenna	1994	Fuzzbox Voodoo
-ZZ Top	Antenna	1994	Girl In A T-Shirt
-ZZ Top	Antenna	1994	Antenna Head
-ZZ Top	Antenna	1994	PCH
-ZZ Top	Antenna	1994	Cherry Red
-ZZ Top	Antenna	1994	Cover Your Rig
-ZZ Top	Antenna	1994	Lizard Life
-ZZ Top	Antenna	1994	Deal Goin' Down
-ZZ Top	Antenna	1994	Everything
-ZZ Top	Mescalero	2003	Mescalero
-ZZ Top	Mescalero	2003	Two Ways To Play
-ZZ Top	Mescalero	2003	Alley-gator
-ZZ Top	Mescalero	2003	Buck Nekkid
-ZZ Top	Mescalero	2003	Goin' So Good
-ZZ Top	Mescalero	2003	Me So Stupid
-ZZ Top	Mescalero	2003	Piece
-ZZ Top	Mescalero	2003	Punk Ass Boyfriend
-ZZ Top	Mescalero	2003	Stackin' Paper
-ZZ Top	Mescalero	2003	What Would You Do
-ZZ Top	Mescalero	2003	What It Is Kid
-ZZ Top	Mescalero	2003	Que Lastima
-ZZ Top	Mescalero	2003	Tramp
-ZZ Top	Mescalero	2003	Crunchy
-ZZ Top	Mescalero	2003	Dusted
-ZZ Top	Mescalero	2003	Liquor
