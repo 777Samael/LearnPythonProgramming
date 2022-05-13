@@ -1,32 +1,39 @@
 from player import Player
+from enemy import Enemy, Troll, Vampyre, VampyreKing
 
 tim = Player("Tim")
 
-print(tim.name)
-print(tim.lives)
-tim.lives -= 1
-print(tim)
+random_monster = Enemy("Basic enemy", 12, 1)
+print(random_monster)
 
-tim.lives -= 1
-print(tim)
+ugly_troll = Troll("Pug")
+print(f"Ugly troll - {ugly_troll}")
 
-tim.lives -= 1
-print(tim)
+another_troll = Troll("Ug")
+print(f"Another troll - {another_troll}")
 
-tim.lives -= 1
-print(tim)
+brother = Troll("Urg")
+print(brother)
 
-tim._lives = 9
-print(tim)
+ugly_troll.grunt()
+another_troll.grunt()
+brother.grunt()
 
-tim.level = 2
-print(tim)
+brother.take_damage(10)
+print(brother)
 
-tim.level += 5
-print(tim)
+print("---")
 
-tim.level = 3
-print(tim)
+big_vamp = Vampyre("Nosferatu")
+print(big_vamp)
 
-tim.score = 500
-print(tim)
+# while big_vamp._alive:
+#     big_vamp.take_damage(2)
+#     print(big_vamp)
+
+king_vamp = VampyreKing("Dodo")
+print(king_vamp)
+
+while king_vamp._alive:
+    king_vamp.take_damage(16)
+    print(king_vamp)
