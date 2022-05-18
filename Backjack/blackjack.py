@@ -29,6 +29,8 @@ def load_images(card_images):
 def deal_card(frame):
     # pop the next card off top of the deck
     next_card = deck.pop(0)
+    # and add it to back of the deck
+    deck.append(next_card)
     # add the image to a Label and display the label
     tkinter.Label(frame, image=next_card[1], relief='raised').pack(side='left')
     # now return the card's face value
@@ -97,6 +99,46 @@ def deal_player():
     #     result_text.set("Dealer wins!")
 
 
+def initial_deal():
+    deal_player()
+    dealer_hand.append(deal_card(dealer_card_frame))
+    dealer_score_label.set(score_hand(dealer_hand))
+    deal_player()
+
+
+def new_game():
+    global dealer_card_frame
+    global player_card_frame
+    global dealer_hand
+    global player_hand
+    # embedded frame to hold the card images
+    dealer_card_frame.destroy()
+    dealer_card_frame = tkinter.Frame(card_frame, background='green')
+    dealer_card_frame.grid(row=0, column=1, sticky='ew', rowspan=2)
+    # embedded frame to hold the card images
+    player_card_frame.destroy()
+    player_card_frame = tkinter.Frame(card_frame, background='green')
+    player_card_frame.grid(row=2, column=1, sticky='ew', rowspan=2)
+
+    result_text.set("")
+
+    # Create the list to store the dealer's and player's hands
+    dealer_hand = []
+    player_hand = []
+    initial_deal()
+
+
+def shuffle():
+    random.shuffle(deck)
+
+
+def play():
+    initial_deal()
+    deal_player()
+
+    mainWindow.mainloop()
+
+
 mainWindow = tkinter.Tk()
 
 # Set up the screen and frames for the dealer and player
@@ -137,21 +179,22 @@ dealer_button.grid(row=0, column=0)
 player_button = tkinter.Button(button_frame, text="Player", command=deal_player)
 player_button.grid(row=0, column=1)
 
+new_game_button = tkinter.Button(button_frame, text="New Game", command=new_game)
+new_game_button.grid(row=0, column=2)
+
+shuffle_button = tkinter.Button(button_frame, text="Shuffle", command=shuffle)
+shuffle_button.grid(row=0, column=3)
 # load cards
 cards = []
 load_images(cards)
 print(cards)
 # Create a new deck of cards and shuffle them
-deck = list(cards)
-
-random.shuffle(deck)
+deck = list(cards) * 2
+shuffle()
 
 # Create the list to store the dealer's and player's hands
 dealer_hand = []
 player_hand = []
 
-deal_player()
-dealer_hand.append(deal_card(dealer_card_frame))
-deal_player()
-
-mainWindow.mainloop()
+if __name__ == "__main__":
+    play()
