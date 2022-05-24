@@ -12,36 +12,36 @@ macierz = [[0, 0, 1, 0, 0], [1, 0, 0, 0, 0], [1, 1, 0, 1, 1], [0, 0, 1, 0, 0], [
 
 print("---------------------------------------")
 
-def szukaj_rekurencyjnie(row, col):
+
+def szukaj_rekurencyjnie(row, col, rzeka):
+
+    wszystkie_mokre_miejsca.add((row, col))
+    rzeka.add((row, col))
     if col > 0:
         element = macierz[row][col-1]
         pozycja = (row, col-1)
         if element == 1 and pozycja not in wszystkie_mokre_miejsca:
-            wszystkie_mokre_miejsca.add(pozycja)
-            szukaj_rekurencyjnie(pozycja[0], pozycja[1])
+            szukaj_rekurencyjnie(pozycja[0], pozycja[1], rzeka)
 
     if row < len(macierz) - 1:
         element = macierz[row + 1][col]
         pozycja = (row + 1, col)
         if element == 1 and pozycja not in wszystkie_mokre_miejsca:
-            wszystkie_mokre_miejsca.add(pozycja)
-            szukaj_rekurencyjnie(pozycja[0], pozycja[1])
+            szukaj_rekurencyjnie(pozycja[0], pozycja[1], rzeka)
 
     if col < len(macierz[0]) - 1:
         element = macierz[row][col + 1]
         pozycja = (row, col + 1)
         if element == 1 and pozycja not in wszystkie_mokre_miejsca:
-            wszystkie_mokre_miejsca.add(pozycja)
-            szukaj_rekurencyjnie(pozycja[0], pozycja[1])
+            szukaj_rekurencyjnie(pozycja[0], pozycja[1], rzeka)
 
     if row > 0:
         element = macierz[row - 1][col]
         pozycja = (row - 1, col)
         if element == 1 and pozycja not in wszystkie_mokre_miejsca:
-            wszystkie_mokre_miejsca.add(pozycja)
-            szukaj_rekurencyjnie(pozycja[0], pozycja[1])
+            szukaj_rekurencyjnie(pozycja[0], pozycja[1], rzeka)
 
-    return ...
+
 
 dlugosc = len(macierz[0])
 wszystkie_mokre_miejsca = set()  # pojedyncze punkty
@@ -53,20 +53,11 @@ for i in range(dlugosc):
         pozycja = (j, i)
         if element == 1 and pozycja not in wszystkie_mokre_miejsca:
             aktualna_rzeka = set()
-            wszystkie_mokre_miejsca.add(pozycja)
-            szukaj_rekurencyjnie(j, i)
+            szukaj_rekurencyjnie(j, i, aktualna_rzeka)
             wszystkie_rzeki.add(tuple(aktualna_rzeka))
 
-print(wszystkie_rzeki)
-print(wszystkie_mokre_miejsca)
-
-
-x = [1,2,3]
-
-def a(b):
-    b.append(1)
-    print(x)
-
-print(x)
-a(x)
-print(x)
+# print(wszystkie_rzeki)
+for x in wszystkie_rzeki:
+    print(f"{x} dlugosc: {len(x)}")
+print("---------------------------------------")
+print(len(max(wszystkie_rzeki)))
