@@ -61,3 +61,5 @@ for x in wszystkie_rzeki:
     print(f"{x} dlugosc: {len(x)}")
 print("---------------------------------------")
 print(len(max(wszystkie_rzeki)))
+
+# doniczka > kompozycja z klas roślina i czujnik
