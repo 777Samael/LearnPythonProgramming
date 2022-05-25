@@ -60,9 +60,10 @@ class DataListBox(Scrollbox):
             self.linked_box.clear()
 
     def on_select(self, event):
-        if self.linked_box:
+        if self.linked_box and self.curselection():
             index = self.curselection()[0]
             value = self.get(index),
+            print(value)
 
             # get the ID from the database row
             # Make sure we're getting the correct one, by including the link_value if appropriate
