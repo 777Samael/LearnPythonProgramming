@@ -1,0 +1,2 @@
+fussy_meals = [meal for meal in menu if ("spam" in meal or "eggs" in meal) and not ("bacon" in meal and "sausage" in meal)]   # <--
+print(fussy_meals)
